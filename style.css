@@ -1,0 +1,142 @@
+#box2,#box3,#box4,#box5{
+	width: 300px;
+	height: 300px;
+	background: red;
+	margin-top:30px;
+	margin:auto;	
+	
+}
+#box2{
+	box-shadow: 10px 10px;
+}
+
+#box3{
+	box-shadow: 10px 10px black inset;
+
+}
+/* Next, add a blur effect to the shadow:*/
+
+#box4{
+	/*box-shadow: 10px 10px 5px ;*/
+	/*box-shadow: 10px 12px 4px rgba(0, 0, 0, .5);*/
+	 box-shadow: 0 15px 2px rgba(0, 0, 0, 0.3);     
+
+}
+
+/* card start */
+
+div.card {
+	border-radius: 50%;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 red, 0 16px 30px 0 black, 0 36px 50px 0 green;
+  /*when you set any multiple shadow, you use double px every 2nd or after color */
+  text-align: center;
+  margin-left: 120px;
+}
+
+div.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+div.container {
+    padding: 10px;
+}
+
+/* card end */
+
+#shadow1{
+	text-shadow: 5px 5px black;
+	color: #fff;
+}
+
+#shadow2{
+	 /*color: white;*/
+    text-shadow: 5px 5px 4px #FF0000;
+}
+/*3rd px is blur*/
+
+/* Multiple Shadows */
+
+
+#shadow3{
+	color: #fff;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+/* Border around text! */
+
+pre{
+	color: #fff;
+	margin-left: 20px;
+	font-family: verdana;
+	font-style: italic;
+	/*text-transform: uppercase;*/
+	 text-shadow: -1px 0 black, 0 1px green,1px 0 green, 0 -1px black;
+}
+
+
+
+
+
+
+
+.container{
+	width: 960px;
+/*	height: 600px;*/
+	/*background: #999;*/
+	margin:0 auto;
+}
+.main{
+	padding: 10px;
+	height: auto;
+	background: #DDDCDD;
+}
+#main_contenr{
+	font-size: 30px;
+	background: #ddd;
+	width: 900px;
+	height: 10000px;
+	padding: 10px;
+	margin-left: 10px;
+	border:1px solid #999;
+}
+footer,header{
+	height: 70px;
+	background: #434244;
+	color: #fff;
+	text-align: center;
+}
+h1{
+	display: inline-block;
+	margin-top: 12px;
+}
+h2{
+	border-top: 2px solid #999;
+	border-bottom: 2px solid #999;
+	padding: 9px 0px;
+	margin-left: 20px;
+	color: #10090D;
+
+}
+.box{
+	background:#fff;
+	padding: 2em;
+	box-shadow: ;
+	height: 50px;
+	width: 500px;
+}
+#box1{
+	margin-top: -20px;
+	margin-left: 20px;
+}
+
+#shadow4{
+	color: #fff;
+	 text-shadow: 
+	 -3px 0 black,0 3px green, 3px 0 blue, 0 -3px red;
+}
